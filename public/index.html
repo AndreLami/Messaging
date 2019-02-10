@@ -81,9 +81,6 @@
         console.log('Socket is connected');
       });
 
-      socket.on('random', function (data) {
-        console.log('Received "random" event with data: ' + data.number);
-      });
 
       var sampleChannel = socket.subscribe('sample');
 
